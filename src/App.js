@@ -15,6 +15,9 @@ import xg from "./LiveSoccerGameStates";
 import LiveSoccerGameStates from './LiveSoccerGameStates';
 import NFLSchedule from './NFLSchedule';
 import ToDoList from './ToDoList';
+import WeatherComponent from './WeatherComponent';
+import ChatApp from './ChatApp';
+import TicTacToe from './TicTacToe';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
         <Route path="/nfl" element={<NFLSchedule />} />
         <Route path="/soccerTransfers" element={<SoccerTransfers />} />
         <Route path="/ToDoList" element={<ToDoList />} />
+        <Route path="/Weather" element={<WeatherComponent />} />
+        <Route path="/ChatApp" element={<ChatApp />} />
+        <Route path="/Tictactoe" element={<TicTacToe />} />
         
       </Routes>
     </BrowserRouter>

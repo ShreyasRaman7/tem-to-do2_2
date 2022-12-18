@@ -98,7 +98,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="/SoccerTransfers"
+            href="/Weather"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -109,7 +109,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            SoccerTransfers
+            Weather
           </Typography>
 
           <Typography
