@@ -66,6 +66,8 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              border: "2px solid white",
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -84,6 +86,8 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              border: "2px solid white",
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -102,6 +106,8 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              border: "2px solid white",
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -120,6 +126,9 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
+              
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              border: "2px solid white",
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -130,8 +139,85 @@ function ResponsiveAppBar() {
             ToDoList
           </Typography>
 
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/TicTacToe"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              border: "2px solid white",
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+           TicTacToe
+          </Typography>
+
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/Chatapp"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              border: "2px solid white",
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+           ChatApp
+          </Typography>
+
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/gradecalculator"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              border: "2px solid white",
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+           Grade Calculator
+          </Typography>
           
-          
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/graph"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              border: "2px solid white",
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+           Graph
+          </Typography>
 
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

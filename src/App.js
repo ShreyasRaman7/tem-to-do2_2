@@ -18,16 +18,26 @@ import ToDoList from './ToDoList';
 import WeatherComponent from './WeatherComponent';
 import ChatApp from './ChatApp';
 import TicTacToe from './TicTacToe';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { Typography } from '@material-ui/core';
+import HomePage from './HomePage';
+import background1 from "./background1.jpg";
+import WeightedGradeCalculator from './WeightedGradeCalculator';
+import PolynomialGraph from './PolynomialGraph';
+
+
 
 function App() {
   return (
     
-    <div className="App">
-      <header className="App-header">
+    <div className="App"  >
       <ResponsiveAppBar/>
+      <header className="App-header">
+      
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SoccerHighlights />} />
+         <Route path="/" element={<HomePage />} />
+        <Route path="/SoccerHighlights" element={<SoccerHighlights />} />
         <Route path="/comments" element={<CommentsSection />} />
         <Route path="/xg" element={<LiveSoccerGameStates />} />
         <Route path="/nfl" element={<NFLSchedule />} />
@@ -36,7 +46,9 @@ function App() {
         <Route path="/Weather" element={<WeatherComponent />} />
         <Route path="/ChatApp" element={<ChatApp />} />
         <Route path="/Tictactoe" element={<TicTacToe />} />
-        
+        <Route path="/gradeCalculator" element={<WeightedGradeCalculator />} />
+        <Route path="/graph" element={<PolynomialGraph />} />
+
       </Routes>
     </BrowserRouter>
       </header>
