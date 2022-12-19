@@ -62,6 +62,26 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
+            href="/soccerHighlights"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              background: "radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)",
+              border: "2px solid white",
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+            ⚽Highlights
+          </Typography>
+
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
             href="/nfl"
             sx={{
               mr: 2,
@@ -75,7 +95,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            NFL
+            NFL🏈
           </Typography>
 
           <Typography
@@ -95,7 +115,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            liveSoccer
+            Live⚽
           </Typography>
 
           <Typography
@@ -196,7 +216,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-           Grade Calculator
+           Grade Calc
           </Typography>
           
           <Typography

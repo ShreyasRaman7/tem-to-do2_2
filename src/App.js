@@ -24,6 +24,7 @@ import HomePage from './HomePage';
 import background1 from "./background1.jpg";
 import WeightedGradeCalculator from './WeightedGradeCalculator';
 import PolynomialGraph from './PolynomialGraph';
+import { HashRouter } from 'react-router-dom';
 
 
 
@@ -34,13 +35,13 @@ function App() {
       <ResponsiveAppBar/>
       <header className="App-header">
       
-      <BrowserRouter>
+      <BrowserRouter >
       <Routes>
-         <Route path="/" element={<HomePage />} />
-        <Route path="/SoccerHighlights" element={<SoccerHighlights />} />
+         
+        <Route  path="/SoccerHighlights" element={<SoccerHighlights />} />
         <Route path="/comments" element={<CommentsSection />} />
         <Route path="/xg" element={<LiveSoccerGameStates />} />
-        <Route path="/nfl" element={<NFLSchedule />} />
+        <Route  path="/nfl" element={<NFLSchedule />} />
         <Route path="/soccerTransfers" element={<SoccerTransfers />} />
         <Route path="/ToDoList" element={<ToDoList />} />
         <Route path="/Weather" element={<WeatherComponent />} />
@@ -48,6 +49,7 @@ function App() {
         <Route path="/Tictactoe" element={<TicTacToe />} />
         <Route path="/gradeCalculator" element={<WeightedGradeCalculator />} />
         <Route path="/graph" element={<PolynomialGraph />} />
+        <Route path="/" element={<HomePage />} />
 
       </Routes>
     </BrowserRouter>
