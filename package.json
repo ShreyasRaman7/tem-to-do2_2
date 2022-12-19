@@ -1,7 +1,7 @@
 {
   "name": "tem-to-do2",
   "version": "0.1.0",
-  "homepage": "https://shreyasraman7.github.io/tem-to-do2_2/App.js",
+  "homepage": "https://shreyasraman7.github.io/tem-to-do2_2",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -25,9 +25,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
+    
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
