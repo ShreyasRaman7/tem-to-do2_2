@@ -219,6 +219,7 @@ function ResponsiveAppBar() {
            Grade Calc
           </Typography>
           
+          
           <Typography
             variant="h6"
             noWrap
